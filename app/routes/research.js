@@ -21,6 +21,8 @@ function ResearchHandler(db) {
                 }
                 res.write("<h1>The following is the stock information you requested.</h1>\n\n");
                 res.write("<h1>GITHUB-PR TEST </h1>\n\n");
+                res.write("<h1>GITHUB-PR2 TEST </h1>\n\n");
+                
                 res.write("\n\n");
                 if (body) {
                     res.write(body);
